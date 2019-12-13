@@ -1,4 +1,4 @@
-// create a class
+// buat sebuah class
 class Student {
     fullName: string;
     constructor(public firstName: string, public middleInitial: string, public lastName: string) {
@@ -6,13 +6,13 @@ class Student {
     }
 }
 
-// create a interface
+// buat sebuah interface
 interface Person {
     firstName: string;
     lastName: string;
 }
 
-// create a function
+// buat sebuah function
 let userFirst = { firstName: "Ris", lastName: "yandi" }; 
 function greeterFirst(person: Person) {
     return "hello, my name is " + person.firstName + "" + person.lastName;
@@ -25,5 +25,7 @@ function greeterTwo() {
 
 console.log(greeterFirst(userFirst), "--> value greeterFirst");
 console.log(greeterTwo(), "--> value greeterTwo");
+
+// ini digunakan jika ingin melihat output di body html
 // document.body.textContent = greeterFirst(userFirst);
 // document.body.innerHTML = greeterTwo();
